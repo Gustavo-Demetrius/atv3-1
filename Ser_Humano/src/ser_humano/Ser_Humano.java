@@ -20,6 +20,20 @@ class Ser_Humano {
         Corpo_Humano IMC = new Corpo_Humano(70,170);
         
         System.out.println(IMC.GetDensidade());
+        
+        /*
+        
+        1.O comando apresenta um erro pois o acesso do valor de massa esta privado na classe Corpo_Humano
+
+
+
+2. Ao alterar a linha de private float Massa para public float Massa, a variável deixou de ser exclusiva para operação e passou a ser disponível para qualquer momento dentro da classe.
+
+
+
+3. O proprio NetBeans aparece um aviso dizendo que o método SetVolume nunca é usado e não é possível utilizar o metodo na main
+        
+        */
     
     } 
 }
